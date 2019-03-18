@@ -1,0 +1,35 @@
+{
+  "name": "do-aws-uploader",
+  "version": "1.0.0",
+  "description": "[aws-sdk](https://github.com/aws/aws-sdk-js) based kinda high level s3 uploader for **AWS** and **Digital Ocean**. It wraps [upload](http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#upload-property) method of aws-sdk. For file upload, `ContentType` automatically added. Also, it can remove uploaded file from the file system, after upload completed successfully.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "async": "2.6.1",
+    "aws-sdk": "2.244.1",
+    "is-stream": "1.1.0",
+    "joi": "13.3.0",
+    "mimos": "4.0.0"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "fs-extra": "6.0.1",
+    "mocha": "5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baozdemir/do-aws-uploader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baozdemir/do-aws-uploader/issues"
+  },
+  "homepage": "https://github.com/baozdemir/do-aws-uploader#readme"
+}
